@@ -23,8 +23,8 @@ type DFA<'state, 'input when 'state: comparison and 'input: comparison> =
 module DFA =
 
   /// <summary>Rename the status in DFA with the given sequence. The most
-  /// commonly used sequence is 1, 2, 3, ..., n (aka. `Seq.initInfinite`), which
-  /// will return a DFA with a status number starting from zero</summary>
+  /// commonly used sequence is 1, 2, 3, ..., n (aka. <c>Seq.initInfinite</c>),
+  /// which will return a DFA with a status number starting from zero.</summary>
   let private renameStates newStates dfa =
     let states =
       newStates
