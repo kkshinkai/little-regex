@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="source/AST/Regex.fs" />
+    
+    <Compile Include="source/Parse/Token.fs" />
+    <Compile Include="source/Parse/Lexer.fs" />
+    <Compile Include="source/Parse/Parser.fs" />
+
+    <Compile Include="source/Automata/NFA.fs" />
+    <Compile Include="source/Automata/DFA.fs" />
+
+    <Compile Include="source/REPL/Markup.fs" />
+    <Compile Include="source/REPL/REPL.fs" />
+
+    <Compile Include="source/Main.fs" />
+  </ItemGroup>
+</Project>
