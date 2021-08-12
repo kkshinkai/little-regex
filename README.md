@@ -1,3 +1,5 @@
+> ⚠️ **Deprecated**: Do not continue to adapt Unicode parsing, move to https://github.com/kkshinkai/lex (is Standard ML)
+    
 Little Regex
 ============
 
